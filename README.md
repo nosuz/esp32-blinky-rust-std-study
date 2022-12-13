@@ -19,7 +19,7 @@ The latest Rust supports both `std` and `non_std` environments for ESP32 family.
 | ESP32    | GPIO2   |
 | ESP32-C3 | GPIO8   |
 
-These boards are my original design, and please change the port depending on your configurations.
+These boards are my original design, and please change the pin number depending on your configurations.
 
 ## Compile
 
@@ -32,7 +32,7 @@ $ cargo build # For ESP32-C3
 $ cargo +esp build
 or
 $ rustup override set esp
-$ cargo +esp build
+$ cargo build
 ```
 
 ## Flash
